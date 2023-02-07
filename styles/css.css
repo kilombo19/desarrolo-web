@@ -1,0 +1,91 @@
+/*html, body{
+  max-width: auto;
+  padding: 1px 1px 1px 1px;
+  background-color: #6FA6A0;
+}
+
+header{
+  background-color: #0E7369;
+  height: 150px;
+  align-content: center;
+}
+
+main{
+  background-color: #0E7369;
+  height: 1000px;
+}
+
+footer{
+  background-color: #0E7369;
+  height: 500px;
+}
+h1{
+  color: white;
+  font-family: luxoorea;
+  font-size: 50px;
+  text-align: center;
+  height: 50px;
+  padding-top: 30px;
+}*/
+
+html, body{
+  max-width: auto;
+  padding: 1px 1px 1px 1px;
+  background-color: #f2f2f2f2;
+}
+
+header{
+  background-color:white;
+  height: 110px;
+  align-content: center;
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+main{
+  background-color: white;
+  height: 1000px;
+}
+
+footer{
+  background-color: white;
+  height: 500px;
+}
+h1{
+  color: #0E7369;
+  font-family: luxoorea;
+  font-size: 50px;
+  text-align: center;
+  height: 50px;
+  /*padding-top: 0px;*/
+  text-size-adjust: 1em;
+}
+ul{
+  font-family: 'Titillium Web', sans-serif;
+  display: flex;
+  align-content: center;
+  color: #0E7369;
+  justify-content: space-between;
+}
+li{
+  font-size: 25px;
+  list-style: none;
+  display:inline;
+  padding-left:10px;
+  padding-right:10px;
+}
+main{
+  text-align: center;
+  align-content: center;
+  object-fit: scale-down;
+}
+a{
+  text-decoration-line: none;
+  color: #0E7369;
+}
+
+a:hover{
+  color: #308c83;
+}
